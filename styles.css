@@ -41,15 +41,16 @@ img{display:block; max-width:100%;}
   box-shadow:0 1px 0 rgba(194,162,74,.18);
 }
 .brand{display:flex; align-items:center; gap:12px;}
+.brand-mark{height:42px; width:auto; display:block;}
 .brand-logo{height:48px; width:auto; display:block;}
 .brand .badge{
   width:38px; height:38px; background:var(--gold-light);
   display:flex; align-items:center; justify-content:center;
   font-family:'Noto Serif KR',serif; font-weight:700; font-size:19px; color:var(--navy);
 }
-.brand .word{line-height:1.05;}
-.brand .word b{display:block; font-size:16px; font-weight:800; letter-spacing:.2em; color:#fff;}
-.brand .word small{display:block; font-size:10px; letter-spacing:.26em; color:var(--gold); margin-top:2px;}
+.brand .word{line-height:1.05; padding-left:14px; border-left:1px solid rgba(194,162,74,.4);}
+.brand .word b{display:block; font-size:24px; font-weight:800; letter-spacing:.02em; color:#fff; line-height:1;}
+.brand .word small{display:block; font-size:12px; letter-spacing:.22em; color:var(--gold); margin-top:5px;}
 .header nav{display:flex; align-items:center; gap:32px; font-size:15px; font-weight:500; color:#C9D2E2;}
 .header nav a{transition:color .15s;}
 .header nav a:hover{color:#fff;}
@@ -237,6 +238,7 @@ tbody td:first-child{font-weight:600; color:var(--navy);}
 .qr-card img{width:160px; margin:0 auto;}
 .map-card{text-align:left;}
 .map-card p{font-size:14px; color:var(--muted); margin:0 0 16px; line-height:1.6;}
+.map-embed{width:100%; height:240px; border:1px solid var(--line-soft); border-radius:2px; display:block; margin-bottom:16px;}
 .map-links{display:flex; gap:10px; flex-wrap:wrap;}
 
 /* ===== Admitted schools ===== */
@@ -277,10 +279,13 @@ tbody td:first-child{font-weight:600; color:var(--navy);}
 /* ===== Footer ===== */
 footer{background:#fff; padding:50px 60px; border-top:1px solid var(--line-soft);}
 footer .finner{max-width:var(--maxw); margin:0 auto; display:grid; grid-template-columns:1.3fr 1fr 1.4fr 1fr; gap:24px 40px; align-items:start;}
-.footer-logo{display:flex; align-items:center; gap:11px;}
+.footer-logo{display:flex; align-items:center; gap:12px;}
+.footer-logo .fword{padding-left:15px; border-left:1px solid rgba(10,23,48,.18); font-size:24px; font-weight:800; letter-spacing:.02em; color:var(--navy);}
 .footer-logo .badge{width:32px; height:32px; background:var(--navy); display:flex; align-items:center; justify-content:center; font-family:'Noto Serif KR',serif; font-weight:700; font-size:16px; color:var(--gold-light);}
 .footer-logo strong{font-size:16px; font-weight:800; letter-spacing:.2em; color:var(--navy);}
 footer .fcol p{font-size:13.5px; color:var(--muted); margin:0 0 6px; line-height:1.7;}
+footer .fcol p.fcol-head{margin-bottom:8px;}
+footer .fcol .day{display:inline-block; width:38px; color:var(--gold-deep); font-weight:600;}
 footer .fcol b{color:var(--gold-deep); font-weight:600; margin-right:8px;}
 .foot-bottom{max-width:var(--maxw); margin:26px auto 0; padding-top:20px; border-top:1px solid var(--line-soft); font-size:12px; color:#A8A498;}
 
