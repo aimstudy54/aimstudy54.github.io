@@ -278,7 +278,7 @@ tbody td:first-child{font-weight:600; color:var(--navy);}
 
 /* ===== Footer ===== */
 footer{background:#fff; padding:50px 60px; border-top:1px solid var(--line-soft);}
-footer .finner{max-width:var(--maxw); margin:0 auto; display:grid; grid-template-columns:1.3fr 1fr 1.4fr 1fr; gap:24px 40px; align-items:start;}
+footer .finner{max-width:var(--maxw); margin:0 auto; display:grid; grid-template-columns:1.2fr 1fr 1.4fr 0.9fr; gap:24px 40px; align-items:start;}
 .footer-logo{display:flex; align-items:center; gap:12px;}
 .footer-logo .fword{padding-left:15px; border-left:1px solid rgba(10,23,48,.18); font-size:24px; font-weight:800; letter-spacing:.02em; color:var(--navy);}
 .footer-logo .badge{width:32px; height:32px; background:var(--navy); display:flex; align-items:center; justify-content:center; font-family:'Noto Serif KR',serif; font-weight:700; font-size:16px; color:var(--gold-light);}
