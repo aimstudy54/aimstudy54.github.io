@@ -9,7 +9,7 @@
   --gold-light:#8FB8FF;
   --gold-deep:#1E50C8;
   --red:#D41432;
-  --cream:#E9F1FB;
+  --cream:#FDFAEC;
   --ink:#1A1F2B;
   --muted:#6B7280;
   --muted-2:#94908A;
@@ -146,7 +146,7 @@ img{display:block; max-width:100%;}
 .roadmap-head h2{font-family:'Noto Serif KR',serif; font-size:46px; font-weight:600; color:var(--navy); margin:0;}
 .roadmap-list{display:flex; flex-direction:column; border-top:1px solid var(--line);}
 .roadmap-row{display:grid; grid-template-columns:80px 1fr 2fr auto; align-items:center; gap:30px; padding:32px 6px; border-bottom:1px solid var(--line); transition:background .15s;}
-.roadmap-row:hover{background:#F5F8FD;}
+.roadmap-row:hover{background:#FBF8EA;}
 .roadmap-row .num{font-family:'Noto Serif KR',serif; font-size:30px; color:var(--gold); font-weight:600;}
 .roadmap-row h3{font-size:25px; font-weight:700; color:var(--navy); margin:0;}
 .roadmap-row p{font-size:17px; color:var(--muted); margin:0; line-height:1.6;}
@@ -216,7 +216,7 @@ thead th{
 thead th:not(:first-child){text-align:center;}
 tbody td{font-size:17px; color:var(--ink); padding:18px 20px; border-bottom:1px solid var(--line-soft);}
 tbody td:not(:first-child){text-align:center; color:var(--muted);}
-tbody tr:nth-child(even){background:#F5F8FD;}
+tbody tr:nth-child(even){background:#FCFAEF;}
 tbody td:first-child{font-weight:600; color:var(--navy);}
 
 /* Results data table */
@@ -333,6 +333,50 @@ footer .fcol p.fcol-head{margin-bottom:8px;}
 footer .fcol .day{display:inline-block; width:38px; color:var(--gold-deep); font-weight:600;}
 footer .fcol b{color:var(--gold-deep); font-weight:600; margin-right:8px;}
 .foot-bottom{max-width:var(--maxw); margin:26px auto 0; padding-top:20px; border-top:1px solid var(--line-soft); font-size:12px; color:#A8A498;}
+.foot-bottom{display:flex; flex-wrap:wrap; gap:6px 18px; align-items:center; justify-content:space-between;}
+.foot-links{display:flex; gap:18px; flex-wrap:wrap;}
+.foot-links a{color:var(--navy); font-weight:600;}
+.foot-links a:hover{color:var(--red);}
+
+/* ===== Legal pages (개인정보·약관) ===== */
+.legal{max-width:860px; margin:0 auto; padding:64px 24px 90px;}
+.legal h2{font-size:24px; font-weight:700; color:var(--navy); margin:40px 0 14px; font-family:'Noto Serif KR',serif;}
+.legal h2:first-of-type{margin-top:0;}
+.legal p{font-size:16px; color:#3E4657; line-height:1.85; margin:0 0 12px;}
+.legal ul{margin:0 0 16px; padding-left:20px;}
+.legal li{font-size:16px; color:#3E4657; line-height:1.85; margin-bottom:6px;}
+.legal .updated{font-size:14px; color:var(--muted-2); margin-bottom:36px;}
+.legal table{width:100%; border-collapse:collapse; margin:8px 0 20px;}
+.legal th,.legal td{border:1px solid var(--line); padding:12px 14px; font-size:15px; text-align:left; color:var(--navy);}
+.legal th{background:var(--cream); font-weight:700;}
+/* 교습비 표 */
+.fee-table-wrap{overflow-x:auto; margin:8px 0 20px;}
+.fee-table{width:100%; border-collapse:collapse; min-width:640px;}
+.fee-table th,.fee-table td{border:1px solid var(--line); padding:12px 14px; font-size:15px; color:var(--navy);}
+.fee-table thead th{background:var(--navy); color:#fff; font-weight:600; text-align:center; white-space:nowrap;}
+.fee-table td{text-align:center;}
+.fee-table td.subj{text-align:left; font-weight:600;}
+.fee-table td.fee{font-family:'Noto Serif KR',serif; font-weight:700;}
+.fee-table tbody tr:nth-child(even){background:var(--cream);}
+
+/* ===== Consult form ===== */
+.form-wrap{max-width:640px; margin:0 auto; padding:56px 24px 90px;}
+.form-field{margin-bottom:22px;}
+.form-field label{display:block; font-size:15px; font-weight:600; color:var(--navy); margin-bottom:8px;}
+.form-field label .req{color:var(--red); margin-left:3px;}
+.form-field input,.form-field select,.form-field textarea{
+  width:100%; box-sizing:border-box; font-family:inherit; font-size:16px; color:var(--ink);
+  padding:14px 16px; border:1px solid var(--line); border-radius:3px; background:#fff; transition:border-color .15s;
+}
+.form-field input:focus,.form-field select:focus,.form-field textarea:focus{outline:none; border-color:var(--gold);}
+.form-field textarea{min-height:130px; resize:vertical;}
+.consent{display:flex; gap:12px; align-items:flex-start; background:var(--cream); border:1px solid var(--line); border-radius:4px; padding:16px 18px; margin-bottom:26px;}
+.consent input[type=checkbox]{width:20px; height:20px; margin-top:2px; flex-shrink:0; accent-color:var(--gold); cursor:pointer;}
+.consent label{font-size:14px; color:#3E4657; line-height:1.7; cursor:pointer;}
+.consent label a{color:var(--gold-deep); font-weight:600; text-decoration:underline;}
+.form-submit{width:100%; border:0; cursor:pointer; background:var(--gold); color:#fff; font-weight:700; font-size:17px; padding:16px; border-radius:3px; transition:opacity .15s;}
+.form-submit:hover{opacity:.9;}
+.form-note{font-size:13px; color:var(--muted-2); text-align:center; margin-top:16px; line-height:1.6;}
 
 /* ===== Responsive ===== */
 @media (max-width:980px){
@@ -386,4 +430,22 @@ footer .fcol b{color:var(--gold-deep); font-weight:600; margin-right:8px;}
   .contact-card{padding:32px;}
   footer .finner{grid-template-columns:1fr;}
   .cta .inner{flex-direction:column; align-items:flex-start;}
+  /* --- 모바일 최적화 --- */
+  .header .brand-logo{height:46px !important;}
+  .brand .word b{font-size:21px;}
+  .brand .word{padding-left:11px;}
+  .hero-left p{font-size:17px; margin-bottom:32px;}
+  .hero-right .big{font-size:132px;}
+  .hero-right .big small{font-size:40px;}
+  .hero-right .sub{font-size:16px;}
+  .m-item{font-size:20px;}
+  .m-item b{font-size:26px;}
+}
+@media (max-width:440px){
+  .hero h1{font-size:32px;}
+  .hero-right .big{font-size:108px;}
+  .hero-right .big small{font-size:32px;}
+  .result-cards{grid-template-columns:1fr;}
+  .section-head h2,.roadmap-head h2{font-size:26px;}
+  .sub-hero h1{font-size:29px;}
 }
