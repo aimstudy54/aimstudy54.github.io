@@ -103,7 +103,7 @@ img{display:block; max-width:100%;}
 .hero-actions{display:flex; gap:14px; flex-wrap:wrap;}
 .hero-right{background:var(--navy); min-width:0; display:flex; flex-direction:column; justify-content:center; gap:32px; padding:52px 50px; color:#fff;}
 .hero-right .label{font-size:14px; letter-spacing:.3em; color:var(--red); margin-bottom:0; text-align:center;}
-.hero-right .big{font-family:'Noto Serif KR',serif; text-align:center; font-size:200px; font-weight:700; line-height:1.02; padding:0.08em 0 0.14em; letter-spacing:-0.02em; background:linear-gradient(100deg,#2C6BD6 18%,#CFE3FF 50%,#2C6BD6 82%); background-size:220% auto; -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:transparent; filter:drop-shadow(0 6px 32px rgba(143,184,255,.30)); animation:goldshimmer 5s linear infinite;}
+.hero-right .big{font-family:'Noto Serif KR',serif; text-align:center; font-size:200px; font-weight:700; line-height:1.02; padding:0.08em 0 0.14em; letter-spacing:-0.02em; background:linear-gradient(100deg,#DCE9FB 15%,#FFFFFF 50%,#DCE9FB 85%); background-size:220% auto; -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent; color:transparent; filter:drop-shadow(0 6px 34px rgba(255,255,255,.35)); animation:goldshimmer 5s linear infinite;}
 .hero-right .big small{font-size:58px; -webkit-text-fill-color:#fff; color:#fff;}
 @keyframes goldshimmer{to{background-position:-220% center;}}
 .hero-right .sub{font-size:19px; color:#AEB9CE; margin:0; text-align:center;}
