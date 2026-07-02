@@ -1,4 +1,7 @@
 /* ===== AIM STUDY · 시안 B 디자인 시스템 ===== */
+/* 학원명 워드마크 폰트 (희망체와 유사한 둥근 고딕) — 전 페이지 공통 */
+@font-face{font-family:'GmarketSansBold'; src:url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff'); font-weight:700; font-display:swap;}
+.brand .word b, .footer-logo .fword{font-family:'GmarketSansBold','Noto Serif KR',sans-serif; letter-spacing:0;}
 :root{
   --navy:#0C2A5E;
   --navy-2:#123571;
