@@ -9,7 +9,7 @@
   --gold-light:#8FB8FF;
   --gold-deep:#1E50C8;
   --red:#D41432;
-  --cream:#FDFAEC;
+  --cream:#EFF3FA;
   --ink:#1A1F2B;
   --muted:#6B7280;
   --muted-2:#94908A;
@@ -146,7 +146,7 @@ img{display:block; max-width:100%;}
 .roadmap-head h2{font-family:'Noto Serif KR',serif; font-size:46px; font-weight:600; color:var(--navy); margin:0;}
 .roadmap-list{display:flex; flex-direction:column; border-top:1px solid var(--line);}
 .roadmap-row{display:grid; grid-template-columns:80px 1fr 2fr auto; align-items:center; gap:30px; padding:32px 6px; border-bottom:1px solid var(--line); transition:background .15s;}
-.roadmap-row:hover{background:#FBF8EA;}
+.roadmap-row:hover{background:#F1F5FB;}
 .roadmap-row .num{font-family:'Noto Serif KR',serif; font-size:30px; color:var(--gold); font-weight:600;}
 .roadmap-row h3{font-size:25px; font-weight:700; color:var(--navy); margin:0;}
 .roadmap-row p{font-size:17px; color:var(--muted); margin:0; line-height:1.6;}
@@ -216,7 +216,7 @@ thead th{
 thead th:not(:first-child){text-align:center;}
 tbody td{font-size:17px; color:var(--ink); padding:18px 20px; border-bottom:1px solid var(--line-soft);}
 tbody td:not(:first-child){text-align:center; color:var(--muted);}
-tbody tr:nth-child(even){background:#FCFAEF;}
+tbody tr:nth-child(even){background:#F2F6FC;}
 tbody td:first-child{font-weight:600; color:var(--navy);}
 
 /* Results data table */
