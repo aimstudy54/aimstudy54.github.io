@@ -359,6 +359,17 @@ footer .fcol b{color:var(--gold-deep); font-weight:600; margin-right:8px;}
 .fee-table td.fee{font-family:'Noto Serif KR',serif; font-weight:700;}
 .fee-table tbody tr:nth-child(even){background:var(--cream);}
 
+/* ===== Notice detail ===== */
+.notice-detail{max-width:900px; margin:0 auto; padding:56px 24px 90px;}
+.notice-detail .n-head{border-bottom:2px solid var(--navy); padding-bottom:20px; margin-bottom:28px;}
+.notice-detail .n-tag{display:inline-block; font-size:12px; font-weight:700; letter-spacing:.05em; color:#fff; background:var(--red); padding:4px 10px; border-radius:2px; margin-bottom:12px;}
+.notice-detail h1{font-size:28px; font-weight:700; color:var(--navy); margin:0 0 10px; font-family:'Noto Serif KR',serif;}
+.notice-detail .n-meta{font-size:14px; color:var(--muted-2);}
+.notice-detail .n-image{width:100%; display:block; border-radius:6px; border:1px solid var(--line); margin-bottom:28px;}
+.notice-detail .n-body{font-size:16px; color:#3E4657; line-height:1.85;}
+.notice-detail .n-back{display:inline-flex; align-items:center; gap:6px; margin-top:36px; font-size:14px; font-weight:600; color:var(--navy);}
+.notice-detail .n-back:hover{color:var(--red);}
+
 /* ===== PDF embed (fees.html) ===== */
 .pdf-embed-wrap{border:1px solid var(--line); border-radius:6px; overflow:hidden; background:#F4F4F4; margin:8px 0 14px;}
 .pdf-embed{width:100%; height:1200px; display:block; border:0;}
